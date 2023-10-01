@@ -1,0 +1,29 @@
+{
+    "name": "telegram-video",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OfLORIAnO/telegramVideo.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/OfLORIAnO/telegramVideo/issues"
+    },
+    "homepage": "https://github.com/OfLORIAnO/telegramVideo#readme",
+    "dependencies": {
+        "ffmpeg": "^0.0.4",
+        "node-telegram-bot-api": "^0.63.0",
+        "nodemon": "^3.0.1",
+        "youtube-dl-exec": "^2.4.14",
+        "ytdl-core": "^4.11.5"
+    }
+}
